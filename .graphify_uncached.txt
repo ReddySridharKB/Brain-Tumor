@@ -1,0 +1,34 @@
+F:\Projects\Brain Tumor 2.0\run_ast.py
+F:\Projects\Brain Tumor 2.0\run_build.py
+F:\Projects\Brain Tumor 2.0\run_merge.py
+F:\Projects\Brain Tumor 2.0\test_real_mri.py
+F:\Projects\Brain Tumor 2.0\backend\app\main.py
+F:\Projects\Brain Tumor 2.0\backend\app\ai\gemini_service.py
+F:\Projects\Brain Tumor 2.0\backend\app\ai\image_processing.py
+F:\Projects\Brain Tumor 2.0\backend\app\ai\openai_service.py
+F:\Projects\Brain Tumor 2.0\backend\app\analytics\chart_generator.py
+F:\Projects\Brain Tumor 2.0\backend\app\config\settings.py
+F:\Projects\Brain Tumor 2.0\backend\app\database\database.py
+F:\Projects\Brain Tumor 2.0\backend\app\models\models.py
+F:\Projects\Brain Tumor 2.0\backend\app\reports\pdf_generator.py
+F:\Projects\Brain Tumor 2.0\backend\app\routes\analytics.py
+F:\Projects\Brain Tumor 2.0\backend\app\routes\patients.py
+F:\Projects\Brain Tumor 2.0\backend\app\routes\reports.py
+F:\Projects\Brain Tumor 2.0\backend\app\routes\scans.py
+F:\Projects\Brain Tumor 2.0\backend\app\schemas\schemas.py
+F:\Projects\Brain Tumor 2.0\backend\app\services\patient_service.py
+F:\Projects\Brain Tumor 2.0\backend\app\services\scan_service.py
+F:\Projects\Brain Tumor 2.0\backend\tests\conftest.py
+F:\Projects\Brain Tumor 2.0\backend\tests\test_patients.py
+F:\Projects\Brain Tumor 2.0\backend\tests\test_scans.py
+F:\Projects\Brain Tumor 2.0\backend\tests\__init__.py
+F:\Projects\Brain Tumor 2.0\AGENTS.md
+F:\Projects\Brain Tumor 2.0\requirements.txt
+F:\Projects\Brain Tumor 2.0\backend\README.md
+F:\Projects\Brain Tumor 2.0\storage\reports\report_scan_13.pdf
+F:\Projects\Brain Tumor 2.0\storage\reports\report_scan_14.pdf
+F:\Projects\Brain Tumor 2.0\MRI Samples\Brain MRI Scan 1.jpg
+F:\Projects\Brain Tumor 2.0\MRI Samples\Brain MRI Scan 2.png
+F:\Projects\Brain Tumor 2.0\storage\patients\1\Brain MRI Scan 1.jpg
+F:\Projects\Brain Tumor 2.0\storage\patients\1\Brain MRI Scan 2.png
+F:\Projects\Brain Tumor 2.0\storage\patients\1\Brain MRI Scan 2_highlighted.png

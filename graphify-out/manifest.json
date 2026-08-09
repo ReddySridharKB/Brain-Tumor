@@ -1,0 +1,86 @@
+{
+  "F:\\Projects\\Brain Tumor 2.0\\run_ast.py": {
+    "mtime": 1778160256.3589318,
+    "hash": "f9e9a95b760b1507f7c267edd46f442f"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\run_build.py": {
+    "mtime": 1778160348.9356444,
+    "hash": "4d205da590adbf75006e3dee8b82fb61"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\run_merge.py": {
+    "mtime": 1778160289.7741933,
+    "hash": "139d77d19bcf677eae9b4aab67af7123"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\main.py": {
+    "mtime": 1778160170.3538601,
+    "hash": "b756e0191cee3bce64f6e3f2bd19ff65"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\ai\\gemini_service.py": {
+    "mtime": 1778160110.10965,
+    "hash": "28002c1cd84880508f1baae83a1b5b79"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\ai\\image_processing.py": {
+    "mtime": 1778160112.123889,
+    "hash": "4696a2fb17da91714d367900c1499001"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\analytics\\chart_generator.py": {
+    "mtime": 1778160148.2507982,
+    "hash": "b5e7603e0d757b1d808f4eb7fd609454"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\config\\settings.py": {
+    "mtime": 1778160014.4113462,
+    "hash": "35d558df8215660e500a5fba6a708d6e"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\database\\database.py": {
+    "mtime": 1778160016.4215446,
+    "hash": "8dfee609f023ce96815ca1e4d1c051a0"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\models\\models.py": {
+    "mtime": 1778160033.3874424,
+    "hash": "9da22644ec3230e9d7dc4e16d13ab31e"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\reports\\pdf_generator.py": {
+    "mtime": 1778160150.271005,
+    "hash": "de418a4a6107c0c091e6c5ad5bf14a3e"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\routes\\analytics.py": {
+    "mtime": 1778160166.3077557,
+    "hash": "ef1e777ac94828cd3c243d13d70262e2"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\routes\\patients.py": {
+    "mtime": 1778160084.081047,
+    "hash": "8e6e38ec7c06749c902c115930c3a42a"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\routes\\reports.py": {
+    "mtime": 1778160168.3170936,
+    "hash": "5e8eef3694656c01259ae8428d0ad8b2"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\routes\\scans.py": {
+    "mtime": 1778160130.6823828,
+    "hash": "3fcd5b5343c99556bd743fa8a0ce87cb"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\schemas\\schemas.py": {
+    "mtime": 1778160035.3985293,
+    "hash": "719ab496f8b1c1920387e408e3a604e9"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\services\\patient_service.py": {
+    "mtime": 1778160082.0614893,
+    "hash": "46efea0208b7e18be77e8a92594c7207"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\app\\services\\scan_service.py": {
+    "mtime": 1778160128.6640012,
+    "hash": "3ed0e10eda55a54f38b3b7b9844fa5e1"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\AGENTS.md": {
+    "mtime": 1778160186.7048922,
+    "hash": "43d844566297e6123199760923f67c68"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\README.md": {
+    "mtime": 1778160184.6697059,
+    "hash": "57cf542a4d9133fcb92c0b34f8969692"
+  },
+  "F:\\Projects\\Brain Tumor 2.0\\backend\\requirements.txt": {
+    "mtime": 1778160010.3250153,
+    "hash": "50d91ce54f9b639b5250435946ea072f"
+  }
+}

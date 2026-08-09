@@ -1,0 +1,1630 @@
+{
+  "nodes": [
+    {
+      "id": "main_py",
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_main_read_root",
+      "label": "read_root()",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L32"
+    },
+    {
+      "id": "ai_gemini_service_py",
+      "label": "gemini_service.py",
+      "file_type": "code",
+      "source_file": "ai\\gemini_service.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "ai_gemini_service_analyze_mri_scan",
+      "label": "analyze_mri_scan()",
+      "file_type": "code",
+      "source_file": "ai\\gemini_service.py",
+      "source_location": "L14"
+    },
+    {
+      "id": "ai_gemini_service_compare_scans",
+      "label": "compare_scans()",
+      "file_type": "code",
+      "source_file": "ai\\gemini_service.py",
+      "source_location": "L44"
+    },
+    {
+      "id": "ai_image_processing_py",
+      "label": "image_processing.py",
+      "file_type": "code",
+      "source_file": "ai\\image_processing.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "ai_image_processing_process_mri_image",
+      "label": "process_mri_image()",
+      "file_type": "code",
+      "source_file": "ai\\image_processing.py",
+      "source_location": "L6"
+    },
+    {
+      "id": "ai_image_processing_rationale_7",
+      "label": "Process the MRI image to generate a highlighted image and a heatmap.     Returns",
+      "file_type": "rationale",
+      "source_file": "ai\\image_processing.py",
+      "source_location": "L7"
+    },
+    {
+      "id": "analytics_chart_generator_py",
+      "label": "chart_generator.py",
+      "file_type": "code",
+      "source_file": "analytics\\chart_generator.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "analytics_chart_generator_generate_probability_chart",
+      "label": "generate_probability_chart()",
+      "file_type": "code",
+      "source_file": "analytics\\chart_generator.py",
+      "source_location": "L5"
+    },
+    {
+      "id": "analytics_chart_generator_rationale_6",
+      "label": "Generate a pie chart indicating the probability of a tumor.",
+      "file_type": "rationale",
+      "source_file": "analytics\\chart_generator.py",
+      "source_location": "L6"
+    },
+    {
+      "id": "config_settings_py",
+      "label": "settings.py",
+      "file_type": "code",
+      "source_file": "config\\settings.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "config_settings_settings",
+      "label": "Settings",
+      "file_type": "code",
+      "source_file": "config\\settings.py",
+      "source_location": "L4"
+    },
+    {
+      "id": "basesettings",
+      "label": "BaseSettings",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "config_settings_config",
+      "label": "Config",
+      "file_type": "code",
+      "source_file": "config\\settings.py",
+      "source_location": "L11"
+    },
+    {
+      "id": "database_database_py",
+      "label": "database.py",
+      "file_type": "code",
+      "source_file": "database\\database.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "database_database_get_db",
+      "label": "get_db()",
+      "file_type": "code",
+      "source_file": "database\\database.py",
+      "source_location": "L18"
+    },
+    {
+      "id": "models_models_py",
+      "label": "models.py",
+      "file_type": "code",
+      "source_file": "models\\models.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "models_models_patient",
+      "label": "Patient",
+      "file_type": "code",
+      "source_file": "models\\models.py",
+      "source_location": "L8"
+    },
+    {
+      "id": "base",
+      "label": "Base",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "models_models_mriscan",
+      "label": "MRIScan",
+      "file_type": "code",
+      "source_file": "models\\models.py",
+      "source_location": "L23"
+    },
+    {
+      "id": "models_models_analytics",
+      "label": "Analytics",
+      "file_type": "code",
+      "source_file": "models\\models.py",
+      "source_location": "L49"
+    },
+    {
+      "id": "reports_pdf_generator_py",
+      "label": "pdf_generator.py",
+      "file_type": "code",
+      "source_file": "reports\\pdf_generator.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "reports_pdf_generator_generate_pdf_report",
+      "label": "generate_pdf_report()",
+      "file_type": "code",
+      "source_file": "reports\\pdf_generator.py",
+      "source_location": "L8"
+    },
+    {
+      "id": "reports_pdf_generator_rationale_9",
+      "label": "Generate a PDF report for a given MRI scan.",
+      "file_type": "rationale",
+      "source_file": "reports\\pdf_generator.py",
+      "source_location": "L9"
+    },
+    {
+      "id": "routes_analytics_py",
+      "label": "analytics.py",
+      "file_type": "code",
+      "source_file": "routes\\analytics.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "routes_analytics_get_analytics",
+      "label": "get_analytics()",
+      "file_type": "code",
+      "source_file": "routes\\analytics.py",
+      "source_location": "L12"
+    },
+    {
+      "id": "routes_patients_py",
+      "label": "patients.py",
+      "file_type": "code",
+      "source_file": "routes\\patients.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "routes_patients_create_patient",
+      "label": "create_patient()",
+      "file_type": "code",
+      "source_file": "routes\\patients.py",
+      "source_location": "L12"
+    },
+    {
+      "id": "routes_patients_get_patient",
+      "label": "get_patient()",
+      "file_type": "code",
+      "source_file": "routes\\patients.py",
+      "source_location": "L16"
+    },
+    {
+      "id": "routes_reports_py",
+      "label": "reports.py",
+      "file_type": "code",
+      "source_file": "routes\\reports.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "routes_reports_get_pdf_report",
+      "label": "get_pdf_report()",
+      "file_type": "code",
+      "source_file": "routes\\reports.py",
+      "source_location": "L12"
+    },
+    {
+      "id": "routes_scans_py",
+      "label": "scans.py",
+      "file_type": "code",
+      "source_file": "routes\\scans.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "routes_scans_upload_scan",
+      "label": "upload_scan()",
+      "file_type": "code",
+      "source_file": "routes\\scans.py",
+      "source_location": "L12"
+    },
+    {
+      "id": "routes_scans_get_scan_history",
+      "label": "get_scan_history()",
+      "file_type": "code",
+      "source_file": "routes\\scans.py",
+      "source_location": "L23"
+    },
+    {
+      "id": "schemas_schemas_py",
+      "label": "schemas.py",
+      "file_type": "code",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "schemas_schemas_patientbase",
+      "label": "PatientBase",
+      "file_type": "code",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L6"
+    },
+    {
+      "id": "basemodel",
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "schemas_schemas_patientcreate",
+      "label": "PatientCreate",
+      "file_type": "code",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L13"
+    },
+    {
+      "id": "schemas_schemas_patientresponse",
+      "label": "PatientResponse",
+      "file_type": "code",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L16"
+    },
+    {
+      "id": "schemas_schemas_mriscanbase",
+      "label": "MRIScanBase",
+      "file_type": "code",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L24"
+    },
+    {
+      "id": "schemas_schemas_mriscanresponse",
+      "label": "MRIScanResponse",
+      "file_type": "code",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L27"
+    },
+    {
+      "id": "schemas_schemas_aianalysisresult",
+      "label": "AIAnalysisResult",
+      "file_type": "code",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L45"
+    },
+    {
+      "id": "schemas_schemas_patientwithscans",
+      "label": "PatientWithScans",
+      "file_type": "code",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L56"
+    },
+    {
+      "id": "schemas_schemas_analyticsresponse",
+      "label": "AnalyticsResponse",
+      "file_type": "code",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L61"
+    },
+    {
+      "id": "services_patient_service_py",
+      "label": "patient_service.py",
+      "file_type": "code",
+      "source_file": "services\\patient_service.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_patient_service_create_patient",
+      "label": "create_patient()",
+      "file_type": "code",
+      "source_file": "services\\patient_service.py",
+      "source_location": "L5"
+    },
+    {
+      "id": "services_patient_service_get_patient",
+      "label": "get_patient()",
+      "file_type": "code",
+      "source_file": "services\\patient_service.py",
+      "source_location": "L12"
+    },
+    {
+      "id": "services_patient_service_get_patients",
+      "label": "get_patients()",
+      "file_type": "code",
+      "source_file": "services\\patient_service.py",
+      "source_location": "L15"
+    },
+    {
+      "id": "services_scan_service_py",
+      "label": "scan_service.py",
+      "file_type": "code",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_scan_service_save_uploaded_file",
+      "label": "save_uploaded_file()",
+      "file_type": "code",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L10"
+    },
+    {
+      "id": "services_scan_service_upload_and_analyze_scan",
+      "label": "upload_and_analyze_scan()",
+      "file_type": "code",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L19"
+    },
+    {
+      "id": "services_scan_service_get_scan_history",
+      "label": "get_scan_history()",
+      "file_type": "code",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L70"
+    }
+  ],
+  "edges": [
+    {
+      "source": "main_py",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "fastapi_middleware_cors",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "app_database_database",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "app_config_settings",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "app_routes",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "logging",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "main_py",
+      "target": "app_main_read_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_gemini_service_py",
+      "target": "google_generativeai",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\gemini_service.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_gemini_service_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\gemini_service.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_gemini_service_py",
+      "target": "logging",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\gemini_service.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_gemini_service_py",
+      "target": "app_config_settings",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\gemini_service.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_gemini_service_py",
+      "target": "pil_image",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\gemini_service.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_gemini_service_py",
+      "target": "ai_gemini_service_analyze_mri_scan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\gemini_service.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_gemini_service_py",
+      "target": "ai_gemini_service_compare_scans",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\gemini_service.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_image_processing_py",
+      "target": "cv2",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\image_processing.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_image_processing_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\image_processing.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_image_processing_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\image_processing.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_image_processing_py",
+      "target": "pil",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\image_processing.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_image_processing_py",
+      "target": "ai_image_processing_process_mri_image",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\image_processing.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "ai_image_processing_rationale_7",
+      "target": "ai_image_processing_process_mri_image",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "ai\\image_processing.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "analytics_chart_generator_py",
+      "target": "matplotlib_pyplot",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "analytics\\chart_generator.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "analytics_chart_generator_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "analytics\\chart_generator.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "analytics_chart_generator_py",
+      "target": "app_config_settings",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "analytics\\chart_generator.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "analytics_chart_generator_py",
+      "target": "analytics_chart_generator_generate_probability_chart",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analytics\\chart_generator.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "analytics_chart_generator_rationale_6",
+      "target": "analytics_chart_generator_generate_probability_chart",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "analytics\\chart_generator.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "config_settings_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "config\\settings.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "config_settings_py",
+      "target": "pydantic_settings",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "config\\settings.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "config_settings_py",
+      "target": "config_settings_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config\\settings.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "config_settings_settings",
+      "target": "basesettings",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "config\\settings.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "config_settings_py",
+      "target": "config_settings_config",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config\\settings.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "database_database_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database\\database.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "database_database_py",
+      "target": "sqlalchemy",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database\\database.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "database_database_py",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database\\database.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "database_database_py",
+      "target": "app_config_settings",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database\\database.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "database_database_py",
+      "target": "database_database_get_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "database\\database.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "models_models_py",
+      "target": "sqlalchemy",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\models.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "models_models_py",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\models.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "models_models_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\models.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "models_models_py",
+      "target": "uuid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\models.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "models_models_py",
+      "target": "app_database_database",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\models.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "models_models_py",
+      "target": "models_models_patient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\models.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "models_models_patient",
+      "target": "base",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\models.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "models_models_py",
+      "target": "models_models_mriscan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\models.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "models_models_mriscan",
+      "target": "base",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\models.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "models_models_py",
+      "target": "models_models_analytics",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\models.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "models_models_analytics",
+      "target": "base",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\models.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_pdf_generator_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reports\\pdf_generator.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_pdf_generator_py",
+      "target": "reportlab_lib_pagesizes",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reports\\pdf_generator.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_pdf_generator_py",
+      "target": "reportlab_platypus",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reports\\pdf_generator.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_pdf_generator_py",
+      "target": "reportlab_lib_styles",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reports\\pdf_generator.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_pdf_generator_py",
+      "target": "app_config_settings",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reports\\pdf_generator.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_pdf_generator_py",
+      "target": "app_models_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reports\\pdf_generator.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_pdf_generator_py",
+      "target": "reports_pdf_generator_generate_pdf_report",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports\\pdf_generator.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_pdf_generator_rationale_9",
+      "target": "reports_pdf_generator_generate_pdf_report",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "reports\\pdf_generator.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_analytics_py",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\analytics.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_analytics_py",
+      "target": "fastapi_responses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\analytics.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_analytics_py",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\analytics.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_analytics_py",
+      "target": "app_database_database",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\analytics.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_analytics_py",
+      "target": "app_models_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\analytics.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_analytics_py",
+      "target": "app_analytics_chart_generator",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\analytics.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_analytics_py",
+      "target": "routes_analytics_get_analytics",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\analytics.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_patients_py",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\patients.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_patients_py",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\patients.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_patients_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\patients.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_patients_py",
+      "target": "app_database_database",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\patients.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_patients_py",
+      "target": "app_schemas_schemas",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\patients.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_patients_py",
+      "target": "app_services",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\patients.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_patients_py",
+      "target": "routes_patients_create_patient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\patients.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_patients_py",
+      "target": "routes_patients_get_patient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\patients.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_reports_py",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\reports.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_reports_py",
+      "target": "fastapi_responses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\reports.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_reports_py",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\reports.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_reports_py",
+      "target": "app_database_database",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\reports.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_reports_py",
+      "target": "app_models_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\reports.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_reports_py",
+      "target": "app_reports_pdf_generator",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\reports.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_reports_py",
+      "target": "routes_reports_get_pdf_report",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\reports.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_scans_py",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\scans.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_scans_py",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\scans.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_scans_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\scans.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_scans_py",
+      "target": "app_database_database",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\scans.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_scans_py",
+      "target": "app_schemas_schemas",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\scans.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_scans_py",
+      "target": "app_services",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\scans.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_scans_py",
+      "target": "routes_scans_upload_scan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\scans.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_scans_py",
+      "target": "routes_scans_get_scan_history",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "routes\\scans.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_py",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_py",
+      "target": "schemas_schemas_patientbase",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_patientbase",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_py",
+      "target": "schemas_schemas_patientcreate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_patientcreate",
+      "target": "schemas_schemas_patientbase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_py",
+      "target": "schemas_schemas_patientresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_patientresponse",
+      "target": "schemas_schemas_patientbase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_py",
+      "target": "schemas_schemas_mriscanbase",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_mriscanbase",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_py",
+      "target": "schemas_schemas_mriscanresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_mriscanresponse",
+      "target": "schemas_schemas_mriscanbase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_py",
+      "target": "schemas_schemas_aianalysisresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_aianalysisresult",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_py",
+      "target": "schemas_schemas_patientwithscans",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_patientwithscans",
+      "target": "schemas_schemas_patientresponse",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_py",
+      "target": "schemas_schemas_analyticsresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "schemas_schemas_analyticsresponse",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "schemas\\schemas.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "services_patient_service_py",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\patient_service.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "services_patient_service_py",
+      "target": "app_models_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\patient_service.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "services_patient_service_py",
+      "target": "app_schemas_schemas",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\patient_service.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "services_patient_service_py",
+      "target": "services_patient_service_create_patient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\patient_service.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "services_patient_service_py",
+      "target": "services_patient_service_get_patient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\patient_service.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "services_patient_service_py",
+      "target": "services_patient_service_get_patients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\patient_service.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_py",
+      "target": "shutil",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_py",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_py",
+      "target": "sqlalchemy_orm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_py",
+      "target": "app_models_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_py",
+      "target": "app_config_settings",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_py",
+      "target": "app_ai_gemini_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_py",
+      "target": "app_ai_image_processing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_py",
+      "target": "services_scan_service_save_uploaded_file",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_py",
+      "target": "services_scan_service_upload_and_analyze_scan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_py",
+      "target": "services_scan_service_get_scan_history",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_upload_and_analyze_scan",
+      "target": "services_scan_service_save_uploaded_file",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services\\scan_service.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_analytics_get_analytics",
+      "target": "analytics_chart_generator_generate_probability_chart",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "routes\\analytics.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_analytics_get_analytics",
+      "target": "models_models_analytics",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "routes\\analytics.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_reports_get_pdf_report",
+      "target": "reports_pdf_generator_generate_pdf_report",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "routes\\reports.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "services_patient_service_create_patient",
+      "target": "models_models_patient",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "services\\patient_service.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_upload_and_analyze_scan",
+      "target": "ai_image_processing_process_mri_image",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "services\\scan_service.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_upload_and_analyze_scan",
+      "target": "ai_gemini_service_analyze_mri_scan",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "services\\scan_service.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_upload_and_analyze_scan",
+      "target": "ai_gemini_service_compare_scans",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "services\\scan_service.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "services_scan_service_upload_and_analyze_scan",
+      "target": "models_models_mriscan",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "services\\scan_service.py",
+      "source_location": "L50",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

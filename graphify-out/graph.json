@@ -1,0 +1,1617 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "run_ast.py",
+      "file_type": "code",
+      "source_file": "run_ast.py",
+      "source_location": "L1",
+      "id": "run_ast_py",
+      "community": 14,
+      "norm_label": "run_ast.py"
+    },
+    {
+      "label": "run_build.py",
+      "file_type": "code",
+      "source_file": "run_build.py",
+      "source_location": "L1",
+      "id": "run_build_py",
+      "community": 15,
+      "norm_label": "run_build.py"
+    },
+    {
+      "label": "run_merge.py",
+      "file_type": "code",
+      "source_file": "run_merge.py",
+      "source_location": "L1",
+      "id": "run_merge_py",
+      "community": 16,
+      "norm_label": "run_merge.py"
+    },
+    {
+      "label": "test_real_mri.py",
+      "file_type": "code",
+      "source_file": "test_real_mri.py",
+      "source_location": "L1",
+      "id": "test_real_mri_py",
+      "community": 2,
+      "norm_label": "test_real_mri.py"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "test_real_mri.py",
+      "source_location": "L17",
+      "id": "brain_tumor_2_0_test_real_mri_main",
+      "community": 2,
+      "norm_label": "main()"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "backend/app/main.py",
+      "source_location": "L1",
+      "id": "backend_app_main_py",
+      "community": 8,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "read_root()",
+      "file_type": "code",
+      "source_file": "backend/app/main.py",
+      "source_location": "L32",
+      "id": "app_main_read_root",
+      "community": 8,
+      "norm_label": "read_root()"
+    },
+    {
+      "label": "gemini_service.py",
+      "file_type": "code",
+      "source_file": "backend/app/ai/gemini_service.py",
+      "source_location": "L1",
+      "id": "backend_app_ai_gemini_service_py",
+      "community": 0,
+      "norm_label": "gemini_service.py"
+    },
+    {
+      "label": "analyze_and_summarize()",
+      "file_type": "code",
+      "source_file": "backend/app/ai/gemini_service.py",
+      "source_location": "L15",
+      "id": "ai_gemini_service_analyze_and_summarize",
+      "community": 0,
+      "norm_label": "analyze_and_summarize()"
+    },
+    {
+      "label": "compare_scans()",
+      "file_type": "code",
+      "source_file": "backend/app/ai/gemini_service.py",
+      "source_location": "L84",
+      "id": "ai_gemini_service_compare_scans",
+      "community": 0,
+      "norm_label": "compare_scans()"
+    },
+    {
+      "label": "Send the original MRI image to Gemini 2.5 Flash Lite for full analysis.     Hand",
+      "file_type": "rationale",
+      "source_file": "backend/app/ai/gemini_service.py",
+      "source_location": "L16",
+      "id": "ai_gemini_service_rationale_16",
+      "community": 0,
+      "norm_label": "send the original mri image to gemini 2.5 flash lite for full analysis.     hand"
+    },
+    {
+      "label": "Compare two brain MRI scan AI summaries for progression tracking.",
+      "file_type": "rationale",
+      "source_file": "backend/app/ai/gemini_service.py",
+      "source_location": "L85",
+      "id": "ai_gemini_service_rationale_85",
+      "community": 0,
+      "norm_label": "compare two brain mri scan ai summaries for progression tracking."
+    },
+    {
+      "label": "image_processing.py",
+      "file_type": "code",
+      "source_file": "backend/app/ai/image_processing.py",
+      "source_location": "L1",
+      "id": "backend_app_ai_image_processing_py",
+      "community": 9,
+      "norm_label": "image_processing.py"
+    },
+    {
+      "label": "process_mri_image()",
+      "file_type": "code",
+      "source_file": "backend/app/ai/image_processing.py",
+      "source_location": "L6",
+      "id": "ai_image_processing_process_mri_image",
+      "community": 9,
+      "norm_label": "process_mri_image()"
+    },
+    {
+      "label": "Process the MRI image to generate a highlighted image and a heatmap.     Returns",
+      "file_type": "rationale",
+      "source_file": "backend/app/ai/image_processing.py",
+      "source_location": "L7",
+      "id": "ai_image_processing_rationale_7",
+      "community": 9,
+      "norm_label": "process the mri image to generate a highlighted image and a heatmap.     returns"
+    },
+    {
+      "label": "openai_service.py",
+      "file_type": "code",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L1",
+      "id": "backend_app_ai_openai_service_py",
+      "community": 3,
+      "norm_label": "openai_service.py"
+    },
+    {
+      "label": "classify_mri()",
+      "file_type": "code",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L13",
+      "id": "ai_openai_service_classify_mri",
+      "community": 3,
+      "norm_label": "classify_mri()"
+    },
+    {
+      "label": "generate_highlighted_image()",
+      "file_type": "code",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L76",
+      "id": "ai_openai_service_generate_highlighted_image",
+      "community": 3,
+      "norm_label": "generate_highlighted_image()"
+    },
+    {
+      "label": "_extract_json()",
+      "file_type": "code",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L120",
+      "id": "ai_openai_service_extract_json",
+      "community": 3,
+      "norm_label": "_extract_json()"
+    },
+    {
+      "label": "Quick classification via GPT-4o (text model, minimal cost).     Sends the MRI im",
+      "file_type": "rationale",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L14",
+      "id": "ai_openai_service_rationale_14",
+      "community": 3,
+      "norm_label": "quick classification via gpt-4o (text model, minimal cost).     sends the mri im"
+    },
+    {
+      "label": "Generate a highlighted tumor image via GPT-image-2.     Only called when tumor r",
+      "file_type": "rationale",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L77",
+      "id": "ai_openai_service_rationale_77",
+      "community": 3,
+      "norm_label": "generate a highlighted tumor image via gpt-image-2.     only called when tumor r"
+    },
+    {
+      "label": "Extract JSON object from GPT response text.",
+      "file_type": "rationale",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L121",
+      "id": "ai_openai_service_rationale_121",
+      "community": 3,
+      "norm_label": "extract json object from gpt response text."
+    },
+    {
+      "label": "chart_generator.py",
+      "file_type": "code",
+      "source_file": "backend/app/analytics/chart_generator.py",
+      "source_location": "L1",
+      "id": "backend_app_analytics_chart_generator_py",
+      "community": 4,
+      "norm_label": "chart_generator.py"
+    },
+    {
+      "label": "generate_probability_chart()",
+      "file_type": "code",
+      "source_file": "backend/app/analytics/chart_generator.py",
+      "source_location": "L5",
+      "id": "analytics_chart_generator_generate_probability_chart",
+      "community": 4,
+      "norm_label": "generate_probability_chart()"
+    },
+    {
+      "label": "Generate a pie chart indicating the probability of a tumor.",
+      "file_type": "rationale",
+      "source_file": "backend/app/analytics/chart_generator.py",
+      "source_location": "L6",
+      "id": "analytics_chart_generator_rationale_6",
+      "community": 4,
+      "norm_label": "generate a pie chart indicating the probability of a tumor."
+    },
+    {
+      "label": "settings.py",
+      "file_type": "code",
+      "source_file": "backend/app/config/settings.py",
+      "source_location": "L1",
+      "id": "backend_app_config_settings_py",
+      "community": 6,
+      "norm_label": "settings.py"
+    },
+    {
+      "label": "Settings",
+      "file_type": "code",
+      "source_file": "backend/app/config/settings.py",
+      "source_location": "L4",
+      "id": "config_settings_settings",
+      "community": 6,
+      "norm_label": "settings"
+    },
+    {
+      "label": "BaseSettings",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "basesettings",
+      "community": 6,
+      "norm_label": "basesettings"
+    },
+    {
+      "label": "Config",
+      "file_type": "code",
+      "source_file": "backend/app/config/settings.py",
+      "source_location": "L12",
+      "id": "config_settings_config",
+      "community": 6,
+      "norm_label": "config"
+    },
+    {
+      "label": "database.py",
+      "file_type": "code",
+      "source_file": "backend/app/database/database.py",
+      "source_location": "L1",
+      "id": "backend_app_database_database_py",
+      "community": 13,
+      "norm_label": "database.py"
+    },
+    {
+      "label": "get_db()",
+      "file_type": "code",
+      "source_file": "backend/app/database/database.py",
+      "source_location": "L18",
+      "id": "database_database_get_db",
+      "community": 13,
+      "norm_label": "get_db()"
+    },
+    {
+      "label": "models.py",
+      "file_type": "code",
+      "source_file": "backend/app/models/models.py",
+      "source_location": "L1",
+      "id": "backend_app_models_models_py",
+      "community": 1,
+      "norm_label": "models.py"
+    },
+    {
+      "label": "Patient",
+      "file_type": "code",
+      "source_file": "backend/app/models/models.py",
+      "source_location": "L8",
+      "id": "models_models_patient",
+      "community": 1,
+      "norm_label": "patient"
+    },
+    {
+      "label": "Base",
+      "file_type": "code",
+      "source_file": "backend/app/models/models.py",
+      "source_location": "",
+      "id": "base",
+      "community": 1,
+      "norm_label": "base"
+    },
+    {
+      "label": "MRIScan",
+      "file_type": "code",
+      "source_file": "backend/app/models/models.py",
+      "source_location": "L23",
+      "id": "models_models_mriscan",
+      "community": 1,
+      "norm_label": "mriscan"
+    },
+    {
+      "label": "Analytics",
+      "file_type": "code",
+      "source_file": "backend/app/models/models.py",
+      "source_location": "L49",
+      "id": "models_models_analytics",
+      "community": 1,
+      "norm_label": "analytics"
+    },
+    {
+      "label": "pdf_generator.py",
+      "file_type": "code",
+      "source_file": "backend/app/reports/pdf_generator.py",
+      "source_location": "L1",
+      "id": "backend_app_reports_pdf_generator_py",
+      "community": 5,
+      "norm_label": "pdf_generator.py"
+    },
+    {
+      "label": "generate_pdf_report()",
+      "file_type": "code",
+      "source_file": "backend/app/reports/pdf_generator.py",
+      "source_location": "L11",
+      "id": "reports_pdf_generator_generate_pdf_report",
+      "community": 5,
+      "norm_label": "generate_pdf_report()"
+    },
+    {
+      "label": "Generate a PDF report for a given MRI scan.     Single highlighted image, paragr",
+      "file_type": "rationale",
+      "source_file": "backend/app/reports/pdf_generator.py",
+      "source_location": "L12",
+      "id": "reports_pdf_generator_rationale_12",
+      "community": 5,
+      "norm_label": "generate a pdf report for a given mri scan.     single highlighted image, paragr"
+    },
+    {
+      "label": "analytics.py",
+      "file_type": "code",
+      "source_file": "backend/app/routes/analytics.py",
+      "source_location": "L1",
+      "id": "backend_app_routes_analytics_py",
+      "community": 4,
+      "norm_label": "analytics.py"
+    },
+    {
+      "label": "get_analytics()",
+      "file_type": "code",
+      "source_file": "backend/app/routes/analytics.py",
+      "source_location": "L12",
+      "id": "routes_analytics_get_analytics",
+      "community": 4,
+      "norm_label": "get_analytics()"
+    },
+    {
+      "label": "patients.py",
+      "file_type": "code",
+      "source_file": "backend/app/routes/patients.py",
+      "source_location": "L1",
+      "id": "backend_app_routes_patients_py",
+      "community": 10,
+      "norm_label": "patients.py"
+    },
+    {
+      "label": "create_patient()",
+      "file_type": "code",
+      "source_file": "backend/app/routes/patients.py",
+      "source_location": "L12",
+      "id": "routes_patients_create_patient",
+      "community": 10,
+      "norm_label": "create_patient()"
+    },
+    {
+      "label": "get_patient()",
+      "file_type": "code",
+      "source_file": "backend/app/routes/patients.py",
+      "source_location": "L16",
+      "id": "routes_patients_get_patient",
+      "community": 10,
+      "norm_label": "get_patient()"
+    },
+    {
+      "label": "reports.py",
+      "file_type": "code",
+      "source_file": "backend/app/routes/reports.py",
+      "source_location": "L1",
+      "id": "backend_app_routes_reports_py",
+      "community": 5,
+      "norm_label": "reports.py"
+    },
+    {
+      "label": "get_pdf_report()",
+      "file_type": "code",
+      "source_file": "backend/app/routes/reports.py",
+      "source_location": "L12",
+      "id": "routes_reports_get_pdf_report",
+      "community": 5,
+      "norm_label": "get_pdf_report()"
+    },
+    {
+      "label": "scans.py",
+      "file_type": "code",
+      "source_file": "backend/app/routes/scans.py",
+      "source_location": "L1",
+      "id": "backend_app_routes_scans_py",
+      "community": 11,
+      "norm_label": "scans.py"
+    },
+    {
+      "label": "upload_scan()",
+      "file_type": "code",
+      "source_file": "backend/app/routes/scans.py",
+      "source_location": "L12",
+      "id": "routes_scans_upload_scan",
+      "community": 11,
+      "norm_label": "upload_scan()"
+    },
+    {
+      "label": "get_scan_history()",
+      "file_type": "code",
+      "source_file": "backend/app/routes/scans.py",
+      "source_location": "L23",
+      "id": "routes_scans_get_scan_history",
+      "community": 11,
+      "norm_label": "get_scan_history()"
+    },
+    {
+      "label": "schemas.py",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L1",
+      "id": "backend_app_schemas_schemas_py",
+      "community": 2,
+      "norm_label": "schemas.py"
+    },
+    {
+      "label": "PatientBase",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L6",
+      "id": "schemas_schemas_patientbase",
+      "community": 2,
+      "norm_label": "patientbase"
+    },
+    {
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "",
+      "id": "basemodel",
+      "community": 2,
+      "norm_label": "basemodel"
+    },
+    {
+      "label": "PatientCreate",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L13",
+      "id": "schemas_schemas_patientcreate",
+      "community": 2,
+      "norm_label": "patientcreate"
+    },
+    {
+      "label": "PatientResponse",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L16",
+      "id": "schemas_schemas_patientresponse",
+      "community": 2,
+      "norm_label": "patientresponse"
+    },
+    {
+      "label": "MRIScanBase",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L24",
+      "id": "schemas_schemas_mriscanbase",
+      "community": 2,
+      "norm_label": "mriscanbase"
+    },
+    {
+      "label": "MRIScanResponse",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L27",
+      "id": "schemas_schemas_mriscanresponse",
+      "community": 2,
+      "norm_label": "mriscanresponse"
+    },
+    {
+      "label": "AIAnalysisResult",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L45",
+      "id": "schemas_schemas_aianalysisresult",
+      "community": 2,
+      "norm_label": "aianalysisresult"
+    },
+    {
+      "label": "PatientWithScans",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L56",
+      "id": "schemas_schemas_patientwithscans",
+      "community": 2,
+      "norm_label": "patientwithscans"
+    },
+    {
+      "label": "AnalyticsResponse",
+      "file_type": "code",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L61",
+      "id": "schemas_schemas_analyticsresponse",
+      "community": 2,
+      "norm_label": "analyticsresponse"
+    },
+    {
+      "label": "patient_service.py",
+      "file_type": "code",
+      "source_file": "backend/app/services/patient_service.py",
+      "source_location": "L1",
+      "id": "backend_app_services_patient_service_py",
+      "community": 1,
+      "norm_label": "patient_service.py"
+    },
+    {
+      "label": "create_patient()",
+      "file_type": "code",
+      "source_file": "backend/app/services/patient_service.py",
+      "source_location": "L5",
+      "id": "services_patient_service_create_patient",
+      "community": 1,
+      "norm_label": "create_patient()"
+    },
+    {
+      "label": "get_patient()",
+      "file_type": "code",
+      "source_file": "backend/app/services/patient_service.py",
+      "source_location": "L12",
+      "id": "services_patient_service_get_patient",
+      "community": 1,
+      "norm_label": "get_patient()"
+    },
+    {
+      "label": "get_patients()",
+      "file_type": "code",
+      "source_file": "backend/app/services/patient_service.py",
+      "source_location": "L15",
+      "id": "services_patient_service_get_patients",
+      "community": 1,
+      "norm_label": "get_patients()"
+    },
+    {
+      "label": "scan_service.py",
+      "file_type": "code",
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L1",
+      "id": "backend_app_services_scan_service_py",
+      "community": 0,
+      "norm_label": "scan_service.py"
+    },
+    {
+      "label": "save_uploaded_file()",
+      "file_type": "code",
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L16",
+      "id": "services_scan_service_save_uploaded_file",
+      "community": 0,
+      "norm_label": "save_uploaded_file()"
+    },
+    {
+      "label": "upload_and_analyze_scan()",
+      "file_type": "code",
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L26",
+      "id": "services_scan_service_upload_and_analyze_scan",
+      "community": 0,
+      "norm_label": "upload_and_analyze_scan()"
+    },
+    {
+      "label": "get_scan_history()",
+      "file_type": "code",
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L105",
+      "id": "services_scan_service_get_scan_history",
+      "community": 0,
+      "norm_label": "get_scan_history()"
+    },
+    {
+      "label": "conftest.py",
+      "file_type": "code",
+      "source_file": "backend/tests/conftest.py",
+      "source_location": "L1",
+      "id": "backend_tests_conftest_py",
+      "community": 12,
+      "norm_label": "conftest.py"
+    },
+    {
+      "label": "db_session()",
+      "file_type": "code",
+      "source_file": "backend/tests/conftest.py",
+      "source_location": "L20",
+      "id": "tests_conftest_db_session",
+      "community": 12,
+      "norm_label": "db_session()"
+    },
+    {
+      "label": "client()",
+      "file_type": "code",
+      "source_file": "backend/tests/conftest.py",
+      "source_location": "L30",
+      "id": "tests_conftest_client",
+      "community": 12,
+      "norm_label": "client()"
+    },
+    {
+      "label": "test_patients.py",
+      "file_type": "code",
+      "source_file": "backend/tests/test_patients.py",
+      "source_location": "L1",
+      "id": "backend_tests_test_patients_py",
+      "community": 7,
+      "norm_label": "test_patients.py"
+    },
+    {
+      "label": "test_create_patient()",
+      "file_type": "code",
+      "source_file": "backend/tests/test_patients.py",
+      "source_location": "L5",
+      "id": "tests_test_patients_test_create_patient",
+      "community": 7,
+      "norm_label": "test_create_patient()"
+    },
+    {
+      "label": "test_get_patient()",
+      "file_type": "code",
+      "source_file": "backend/tests/test_patients.py",
+      "source_location": "L24",
+      "id": "tests_test_patients_test_get_patient",
+      "community": 7,
+      "norm_label": "test_get_patient()"
+    },
+    {
+      "label": "test_get_nonexistent_patient()",
+      "file_type": "code",
+      "source_file": "backend/tests/test_patients.py",
+      "source_location": "L45",
+      "id": "tests_test_patients_test_get_nonexistent_patient",
+      "community": 7,
+      "norm_label": "test_get_nonexistent_patient()"
+    },
+    {
+      "label": "test_scans.py",
+      "file_type": "code",
+      "source_file": "backend/tests/test_scans.py",
+      "source_location": "L1",
+      "id": "backend_tests_test_scans_py",
+      "community": 1,
+      "norm_label": "test_scans.py"
+    },
+    {
+      "label": "test_upload_scan_invalid_file()",
+      "file_type": "code",
+      "source_file": "backend/tests/test_scans.py",
+      "source_location": "L6",
+      "id": "tests_test_scans_test_upload_scan_invalid_file",
+      "community": 1,
+      "norm_label": "test_upload_scan_invalid_file()"
+    },
+    {
+      "label": "test_upload_scan_success()",
+      "file_type": "code",
+      "source_file": "backend/tests/test_scans.py",
+      "source_location": "L16",
+      "id": "tests_test_scans_test_upload_scan_success",
+      "community": 1,
+      "norm_label": "test_upload_scan_success()"
+    },
+    {
+      "label": "test_get_scan_history()",
+      "file_type": "code",
+      "source_file": "backend/tests/test_scans.py",
+      "source_location": "L40",
+      "id": "tests_test_scans_test_get_scan_history",
+      "community": 1,
+      "norm_label": "test_get_scan_history()"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "backend/tests/__init__.py",
+      "source_location": "L1",
+      "id": "backend_tests_init_py",
+      "community": 17,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "MRI Analysis Pipeline",
+      "file_type": "rationale",
+      "source_file": "backend/app/services/scan_service.py",
+      "description": "End-to-end process of MRI scan ingestion, preprocessing, AI classification, and reporting.",
+      "id": "concept_mri_analysis_pipeline",
+      "community": 0,
+      "norm_label": "mri analysis pipeline"
+    },
+    {
+      "label": "Tumor Progression Monitoring",
+      "file_type": "rationale",
+      "source_file": "backend/app/ai/gemini_service.py",
+      "description": "Historical scan comparison for medical tracking.",
+      "id": "concept_tumor_progression_monitoring",
+      "community": 0,
+      "norm_label": "tumor progression monitoring"
+    },
+    {
+      "label": "AI Model Orchestration",
+      "file_type": "rationale",
+      "source_file": "backend/app/services/scan_service.py",
+      "description": "Coordinating GPT-4o and Gemini 2.5 Flash Lite.",
+      "id": "concept_ai_orchestration",
+      "community": 0,
+      "norm_label": "ai model orchestration"
+    },
+    {
+      "label": "OpenAI API Integration",
+      "file_type": "rationale",
+      "source_file": "backend/app/ai/openai_service.py",
+      "description": "GPT-4o used for initial classification and image-to-image highlighting.",
+      "id": "dependency_openai",
+      "community": 3,
+      "norm_label": "openai api integration"
+    },
+    {
+      "label": "Gemini API Integration",
+      "file_type": "rationale",
+      "source_file": "backend/app/ai/gemini_service.py",
+      "description": "Gemini 2.5 Flash Lite used for medical reasoning and summaries.",
+      "id": "dependency_gemini",
+      "community": 0,
+      "norm_label": "gemini api integration"
+    },
+    {
+      "label": "FastAPI Framework",
+      "file_type": "rationale",
+      "source_file": "backend/app/main.py",
+      "description": "Core API framework for the backend.",
+      "id": "dependency_fastapi",
+      "community": 8,
+      "norm_label": "fastapi framework"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_real_mri.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "test_real_mri_py",
+      "target": "brain_tumor_2_0_test_real_mri_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "test_real_mri.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "brain_tumor_2_0_test_real_mri_main",
+      "target": "schemas_schemas_patientcreate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/main.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "backend_app_main_py",
+      "target": "app_main_read_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "semantic_inference",
+      "source": "backend_app_main_py",
+      "target": "dependency_fastapi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/gemini_service.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "backend_app_ai_gemini_service_py",
+      "target": "ai_gemini_service_analyze_and_summarize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/gemini_service.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "backend_app_ai_gemini_service_py",
+      "target": "ai_gemini_service_compare_scans",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "semantic_inference",
+      "source": "backend_app_ai_gemini_service_py",
+      "target": "concept_tumor_progression_monitoring"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "semantic_inference",
+      "source": "backend_app_ai_gemini_service_py",
+      "target": "dependency_gemini"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/gemini_service.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "ai_gemini_service_rationale_16",
+      "target": "ai_gemini_service_analyze_and_summarize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "services_scan_service_upload_and_analyze_scan",
+      "target": "ai_gemini_service_analyze_and_summarize"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/gemini_service.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "ai_gemini_service_rationale_85",
+      "target": "ai_gemini_service_compare_scans",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "services_scan_service_upload_and_analyze_scan",
+      "target": "ai_gemini_service_compare_scans"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/image_processing.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "backend_app_ai_image_processing_py",
+      "target": "ai_image_processing_process_mri_image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/image_processing.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "ai_image_processing_rationale_7",
+      "target": "ai_image_processing_process_mri_image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "backend_app_ai_openai_service_py",
+      "target": "ai_openai_service_classify_mri",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "backend_app_ai_openai_service_py",
+      "target": "ai_openai_service_generate_highlighted_image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "backend_app_ai_openai_service_py",
+      "target": "ai_openai_service_extract_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "semantic_inference",
+      "source": "backend_app_ai_openai_service_py",
+      "target": "dependency_openai"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "ai_openai_service_classify_mri",
+      "target": "ai_openai_service_extract_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "ai_openai_service_rationale_14",
+      "target": "ai_openai_service_classify_mri",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "services_scan_service_upload_and_analyze_scan",
+      "target": "ai_openai_service_classify_mri"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "ai_openai_service_rationale_77",
+      "target": "ai_openai_service_generate_highlighted_image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "services_scan_service_upload_and_analyze_scan",
+      "target": "ai_openai_service_generate_highlighted_image"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/ai/openai_service.py",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "ai_openai_service_rationale_121",
+      "target": "ai_openai_service_extract_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/analytics/chart_generator.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_app_analytics_chart_generator_py",
+      "target": "analytics_chart_generator_generate_probability_chart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/analytics/chart_generator.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "analytics_chart_generator_rationale_6",
+      "target": "analytics_chart_generator_generate_probability_chart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/routes/analytics.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "routes_analytics_get_analytics",
+      "target": "analytics_chart_generator_generate_probability_chart"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/config/settings.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "backend_app_config_settings_py",
+      "target": "config_settings_settings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/config/settings.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "backend_app_config_settings_py",
+      "target": "config_settings_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/config/settings.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "config_settings_settings",
+      "target": "basesettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/database/database.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "backend_app_database_database_py",
+      "target": "database_database_get_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/models/models.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "backend_app_models_models_py",
+      "target": "models_models_patient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/models/models.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "backend_app_models_models_py",
+      "target": "models_models_mriscan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/models/models.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "backend_app_models_models_py",
+      "target": "models_models_analytics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/models/models.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "models_models_patient",
+      "target": "base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/services/patient_service.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "services_patient_service_create_patient",
+      "target": "models_models_patient"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/models/models.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "models_models_mriscan",
+      "target": "base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/models/models.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "models_models_analytics",
+      "target": "base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "services_scan_service_upload_and_analyze_scan",
+      "target": "models_models_mriscan"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/tests/test_scans.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tests_test_scans_test_upload_scan_success",
+      "target": "models_models_mriscan"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/tests/test_scans.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "tests_test_scans_test_get_scan_history",
+      "target": "models_models_mriscan"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/routes/analytics.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "routes_analytics_get_analytics",
+      "target": "models_models_analytics"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/reports/pdf_generator.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "backend_app_reports_pdf_generator_py",
+      "target": "reports_pdf_generator_generate_pdf_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/reports/pdf_generator.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "reports_pdf_generator_rationale_12",
+      "target": "reports_pdf_generator_generate_pdf_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/routes/reports.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "routes_reports_get_pdf_report",
+      "target": "reports_pdf_generator_generate_pdf_report"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/routes/analytics.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "backend_app_routes_analytics_py",
+      "target": "routes_analytics_get_analytics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/routes/patients.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "backend_app_routes_patients_py",
+      "target": "routes_patients_create_patient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/routes/patients.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "backend_app_routes_patients_py",
+      "target": "routes_patients_get_patient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/routes/reports.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "backend_app_routes_reports_py",
+      "target": "routes_reports_get_pdf_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/routes/scans.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "backend_app_routes_scans_py",
+      "target": "routes_scans_upload_scan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/routes/scans.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "backend_app_routes_scans_py",
+      "target": "routes_scans_get_scan_history",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "backend_app_schemas_schemas_py",
+      "target": "schemas_schemas_patientbase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "backend_app_schemas_schemas_py",
+      "target": "schemas_schemas_patientcreate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "backend_app_schemas_schemas_py",
+      "target": "schemas_schemas_patientresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "backend_app_schemas_schemas_py",
+      "target": "schemas_schemas_mriscanbase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "backend_app_schemas_schemas_py",
+      "target": "schemas_schemas_mriscanresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "backend_app_schemas_schemas_py",
+      "target": "schemas_schemas_aianalysisresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "backend_app_schemas_schemas_py",
+      "target": "schemas_schemas_patientwithscans",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "backend_app_schemas_schemas_py",
+      "target": "schemas_schemas_analyticsresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "schemas_schemas_patientbase",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "schemas_schemas_patientcreate",
+      "target": "schemas_schemas_patientbase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "schemas_schemas_patientresponse",
+      "target": "schemas_schemas_patientbase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "schemas_schemas_mriscanbase",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "schemas_schemas_aianalysisresult",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "schemas_schemas_analyticsresponse",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "schemas_schemas_patientwithscans",
+      "target": "schemas_schemas_patientresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/schemas/schemas.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "schemas_schemas_mriscanresponse",
+      "target": "schemas_schemas_mriscanbase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/services/patient_service.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_app_services_patient_service_py",
+      "target": "services_patient_service_create_patient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/services/patient_service.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "backend_app_services_patient_service_py",
+      "target": "services_patient_service_get_patient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/services/patient_service.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "backend_app_services_patient_service_py",
+      "target": "services_patient_service_get_patients",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "backend_app_services_scan_service_py",
+      "target": "services_scan_service_save_uploaded_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "backend_app_services_scan_service_py",
+      "target": "services_scan_service_upload_and_analyze_scan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "backend_app_services_scan_service_py",
+      "target": "services_scan_service_get_scan_history",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "semantic_inference",
+      "source": "backend_app_services_scan_service_py",
+      "target": "concept_mri_analysis_pipeline"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "semantic_inference",
+      "source": "backend_app_services_scan_service_py",
+      "target": "concept_ai_orchestration"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/services/scan_service.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "services_scan_service_upload_and_analyze_scan",
+      "target": "services_scan_service_save_uploaded_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/conftest.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "backend_tests_conftest_py",
+      "target": "tests_conftest_db_session",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/conftest.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "backend_tests_conftest_py",
+      "target": "tests_conftest_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/test_patients.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_tests_test_patients_py",
+      "target": "tests_test_patients_test_create_patient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/test_patients.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "backend_tests_test_patients_py",
+      "target": "tests_test_patients_test_get_patient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/test_patients.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "backend_tests_test_patients_py",
+      "target": "tests_test_patients_test_get_nonexistent_patient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/test_scans.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "backend_tests_test_scans_py",
+      "target": "tests_test_scans_test_upload_scan_invalid_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/test_scans.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "backend_tests_test_scans_py",
+      "target": "tests_test_scans_test_upload_scan_success",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/test_scans.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "backend_tests_test_scans_py",
+      "target": "tests_test_scans_test_get_scan_history",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
