@@ -1,1 +1,8 @@
 backend/.env
+/backend/app/ai/cnn_model/dataset/
+/storage/patients/
+/storage/reports/
+/database/brain_tumor.db
+
+__pycache__/
+*.py[cod]

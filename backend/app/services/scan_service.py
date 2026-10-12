@@ -11,6 +11,7 @@ from app.models.models import MRIScan, Patient
 from app.config.settings import settings
 from app.ai.openai_service import classify_mri, generate_tumor_highlight
 from app.ai.gemini_service import analyze_and_summarize, compare_scans
+from app.ai.cnn_service import classify_tumor_with_cnn
 
 logger = logging.getLogger(__name__)
 
@@ -213,6 +214,21 @@ def upload_and_analyze_scan(db: Session, patient_id: int, file: UploadFile):
     file_path = save_uploaded_file(file, patient_id)
     patient_dir = os.path.dirname(file_path)
 
+    # --- CNN: Tumor Type Classification ---
+    # CNN is responsible only for tumor-type classification.
+    # The existing analysis pipeline remains unchanged for all other fields.
+    cnn_result = None
+    try:
+        logger.info("CNN: Classifying tumor type...")
+        cnn_result = classify_tumor_with_cnn(image_path=file_path)
+        logger.info(
+            "CNN result -> Tumor Type: %s | Confidence: %.2f%%",
+            cnn_result.get("tumor_type"),
+            float(cnn_result.get("confidence", 0))
+            )
+    except Exception as exc:
+        logger.exception("CNN tumor-type classification failed: %s", exc)
+
     # --- Step 1: GPT-4o Quick Classification ---
     logger.info("Step 1: GPT-4o classification...")
     classification = classify_mri(image_path=file_path)
@@ -257,7 +273,7 @@ def upload_and_analyze_scan(db: Session, patient_id: int, file: UploadFile):
     # Override gemini tumor_type with our filename/randomizer result
     # so the final record always reflects the correct detected type.
     # classification dict was updated by _apply_filename_override and takes ABSOLUTE priority.
-    final_tumor_type = classification["tumor_type"] if "tumor_type" in classification else gemini_result.get("tumor_type")
+    final_tumor_type = cnn_result.get("tumor_type") if cnn_result else (classification["tumor_type"] if "tumor_type" in classification else gemini_result.get("tumor_type"))
     tumor_location = classification["tumor_location"] if "tumor_location" in classification else gemini_result.get("tumor_location")
     tumor_risk = gemini_result.get("tumor_risk")
     probability = gemini_result.get("probability")
