@@ -218,3 +218,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Node.js / Next.js frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Python environments and caches
+backend/venv/
+backend/.venv/
+__pycache__/
+.pytest_cache/
+
+# CNN training dataset - change to actual folder path if needed
+Brain_Tumor_MRI_Dataset/
+
+# Local databases and sensitive patient data
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated reports and temporary MRI outputs
+storage/reports/
+storage/uploads/
+storage/processed/
+
+# Secrets
+.env
+.env.*
+!.env.example
