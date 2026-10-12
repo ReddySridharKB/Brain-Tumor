@@ -151,3 +151,4 @@ docs/_build/
 .streamlit/secrets.toml
 .abstra/
 .marimo/
+/backend/app/ai/cnn_model/dataset/
